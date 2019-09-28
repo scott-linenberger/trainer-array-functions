@@ -20,7 +20,9 @@ const items = redditScienceListing.data.children;
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
  */
 export const mapItemsToAuthors = () => {
-    
+    return items.map((currentItem) => {
+        return currentItem.data.author;
+    });
 };
 
 export default {
