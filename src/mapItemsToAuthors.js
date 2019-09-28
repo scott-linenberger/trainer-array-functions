@@ -15,6 +15,9 @@ const items = redditScienceListing.data.children;
  * 
  * The author name is stored in a property: data.author
  * for each listing.
+ * 
+ * For more information on how to use Array.prototype.map
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
  */
 export const mapItemsToAuthors = () => {
     
