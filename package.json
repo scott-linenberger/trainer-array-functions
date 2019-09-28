@@ -1,0 +1,31 @@
+{
+  "name": "trainer-array-functions",
+  "version": "1.0.0",
+  "description": "array function training exercises",
+  "main": "index.js",
+  "repository": "git@github.com:scott-linenberger/trainer-array-functions.git",
+  "author": "Scott Linenberger<scott.linenberger@gmail.com>",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "useBuiltIns": "entry"
+        }
+      ]
+    ]
+  },
+  "jest": {
+    "verbose": true
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0"
+  }
+}
